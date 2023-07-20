@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Control panel</title>
+        <style>
+            body{
+                text-align: center;
+                padding-top: 8%;
+            }
+            button{
+                width: 10%;
+                height: 40px;
+                border-radius: 25px;
+                font-weight: bold;
+                background-color:white;
+                border-width: thin;
+                border-color:initial;
+                
+            }
+            #stop{
+                position: relative;
+                margin-top: 3%;
+                border-color: red;
+            }
+            #left{
+                position: relative;
+                margin-top: 3%;
+                margin-right: 3%;
+            }
+            #right{
+                position: relative;
+                margin-top: 3%;
+                margin-left: 3%;
+            }
+            #backward{
+                position: relative;
+                margin-top: 3%;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <form action="connect.php" method="post" target="_blank">
+            <button id="forward" name="button" value="f">forward</button><br>
+            <button id="left" name="button" value="l">left</button>
+            <button id="stop" name="button" value="s">stop</button>
+            <button id="right" name="button" value="r">right</button><br>
+            <button id="backward" name="button" value="b">backward</button>
+        </form>
+    
+        
+    </body>
+</html>
